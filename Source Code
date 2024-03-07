@@ -1,1 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Title</title>
+    <link rel="stylesheet" href="Index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap">
+</head>
+<body>
+    <header>
+        <img class="logo" src="BilderNettsiden/LogoUSN.png" alt="logo">
+        <nav class="nav_links">
+            <ul>
+                <li><a class="active" href="Index.html">Hjem</a></li>
+                <li><a href="meny.html">Meny</a></li>
+                <li><a href="OmOss.html">Om Oss</a></li>
+                <li><a href="Kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav>
+        <a class="cta" href="LoggInn.html"><button>Logg inn</button></a>
+    </header>
 
+    <div class="Overkskrift">
+        <h1> Velkommen til USN Start</h1>
+    </div>
+    <div class="test1">
+        <p>
+            Innovasjon, entreprenørskap, samarbeid - hvor drømmer blir <br>
+	        virkelighet! Skap, utforsk, og voks sammen med oss. Velkommen til <br>
+			din plattform for suksess!
+        </p>
+        <div class="IndexBilder">
+            <img class="Forside1" src="BilderNettsiden/UsnBilde1.jpg" alt="Forside1">
+        </div>
+        
+    </div>
+
+
+</body>
+</html>
