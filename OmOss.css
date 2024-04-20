@@ -102,9 +102,9 @@ h1 {
     font-weight: 100;
 }
 .knapp {
-    top: 65%;
+    position: absolute;
     left: 50%;
-    transform: translateX(240%);
+    transform: translate(-50%, -50%);
     border-radius: 20px;
     background-color: rgb(168, 51, 255);
     text-align: center;
@@ -113,7 +113,8 @@ h1 {
     cursor: pointer;
     padding: 10px;
     font-size: 20px;
-  }
+}
+
 
 p {
     margin-bottom: 3em;

@@ -87,13 +87,15 @@ button:hover {
 }
 
 .container {
+  position: relative;
   border: none;
+  width: 40%;
   border-radius: 20px;
-  width: 45%;
-  margin-left: 60px;
-  padding: 30px;
-  height: 86vh;
-  background-color:#f2f3f2; 
+  margin-left: 130px;
+  padding: 10px;
+  height: 85vh;
+  margin-top: 50px;
+  background-color:#f2f3f2;  
 }
 
 .container h1 {
@@ -109,25 +111,21 @@ button:hover {
   margin-top: 5px;
 }
 
-#slideshow {
+
+#slideshow img{
   position: absolute;
-  width: 45%;
+  border-radius: 30px;
+  width: 100%;
+  height: 85vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  transform: translateX(30%);
-  top: 30.5%;
-  right: 18%;
-}
-
-#slideshow img {
-  width: 100%;
-  height: auto; 
-  margin-bottom: 20px;
-  height: 86vh;
+  transform: translateX(105%);
+  top: 0cm;
+  right: 0cm;
 }
 
 .kontorløsning {
+  position: relative;
   border: none;
   width: 40%;
   border-radius: 20px;
@@ -153,17 +151,19 @@ button:hover {
 }
 .kontløsbilde {
   position: absolute;
-  width: 35%;
+  width: 70%;
   height: 30vh;
   display: flex;
   flex-direction: column;
-  transform: translateX(115%);
-  top: 128%;
+  transform: translateX(105%);
+  top: 0cm;
+  right: -0cm;
   border-radius: 20px;
 }
 
 
 .kontor {
+  position: relative;
   border: none;
   width: 40%;
   border-radius: 20px;
@@ -190,25 +190,26 @@ button:hover {
 
 .kontbilde {
   position: absolute;
-  width: 35%;
+  width: 70%;
   height: 30vh;
   display: flex;
   flex-direction: column;
-  transform: translateX(115%);
-  top: 170%;
+  transform: translateX(105%);
+  top: 0cm;
+  right: -0cm;
   border-radius: 20px;
 }
 
 .møterom2 {
+  position: relative;
   border: none;
   width: 40%;
   border-radius: 20px;
-  margin-left: 50%;
+  margin-left: 130px;
   padding: 10px;
   height: 30vh;
   margin-top: 100px;
-  background-color:#f2f3f2; 
-  left: 30%;
+  background-color:#f2f3f2;
 }
 
 .møterom2 h1 {
@@ -227,25 +228,26 @@ button:hover {
 
 .mtbilde {
   position: absolute;
-  width: 35%;
+  width: 70%;
   height: 30vh;
   display: flex;
   flex-direction: column;
-  transform: translateX(30%);
-  top: 212%;
+  transform: translateX(105%);
+  top: 0cm;
+  right: -0cm;
   border-radius: 20px;
-  right: 62%;
 }
 
 .oppholdsrom {
+  position: relative;
   border: none;
   width: 40%;
   border-radius: 20px;
-  margin-left: 50%;
+  margin-left: 130px;
   padding: 10px;
   height: 30vh;
   margin-top: 100px;
-  background-color:#f2f3f2; 
+  background-color:#f2f3f2;
 }
 
 .oppholdsrom h1 {
@@ -264,17 +266,18 @@ button:hover {
 
 .opprom {
   position: absolute;
-  width: 35%;
+  width: 70%;
   height: 30vh;
   display: flex;
   flex-direction: column;
-  transform: translateX(30%);
-  top: 253%;
+  transform: translateX(105%);
+  top: 0cm;
+  right: -0cm;
   border-radius: 20px;
-  right: 62%;
 }
 
 .spiseområde2 {
+  position: relative;
   border: none;
   width: 40%;
   border-radius: 20px;
@@ -282,8 +285,7 @@ button:hover {
   padding: 10px;
   height: 30vh;
   margin-top: 100px;
-  background-color:#f2f3f2; 
-  margin-bottom: 400px;
+  background-color:#f2f3f2;
 }
 
 .spiseområde2 h1 {
@@ -302,32 +304,24 @@ button:hover {
 
 .kjøkken {
   position: absolute;
-  width: 35%;
+  width: 70%;
   height: 30vh;
   display: flex;
   flex-direction: column;
-  transform: translateX(115%);
-  top: 295%;
+  transform: translateX(105%);
+  top: 0cm;
+  right: -0cm;
   border-radius: 20px;
-  margin-bottom: 400px;
 }
-
-.double {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
-
-/* Dette er double div*/
 
 .printing2 {
+  position: relative;
   border: none;
   width: 40%;
   border-radius: 20px;
-  margin-left: 60px;
+  margin-left: 130px;
   padding: 10px;
-  height: 25vh;
+  height: 30vh;
   margin-top: 100px;
   background-color:#f2f3f2; 
 }
@@ -345,24 +339,26 @@ button:hover {
   align-items: center;
 }
 
-.spilling {
+.printer {
   position: absolute;
-  width: 40%;
-  height: 40vh;
+  width: 70%;
+  height: 30vh;
   display: flex;
   flex-direction: column;
-  transform: translateX(-1.5%);
-  top: 345%;
-  margin-bottom: 100px;
+  transform: translateX(105%);
+  top: 0cm;
+  right: -0cm;
+  border-radius: 20px;
 }
 
-.spillerom2 {
+.spillerom2 { 
+  position: relative;
   border: none;
   width: 40%;
   border-radius: 20px;
-  margin-left: 60px;
+  margin-left: 130px;
   padding: 10px;
-  height: 25vh;
+  height: 30vh;
   margin-top: 100px;
   background-color:#f2f3f2; 
 }
@@ -380,15 +376,16 @@ button:hover {
   align-items: center;
 }
 
-.printer {
+.spilling {
   position: absolute;
-  width: 40%;
-  height: 40vh;
+  width: 70%;
+  height: 30vh;
   display: flex;
   flex-direction: column;
-  transform: translateX(-1.5%);
-  top: 345%;
-  margin-bottom: 100px;
+  transform: translateX(105%);
+  top: 0cm;
+  right: -0cm;
+  border-radius: 20px;
 }
 
 .button {
